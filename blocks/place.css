@@ -303,7 +303,7 @@
     margin-top: 380px;
   }
 }
-.place__city {
+.place__city-berea {
   width: 984px;
   height: 725px;
 }
@@ -326,7 +326,7 @@
   }
 }
 @media (min-width: 544px) and (max-width: 1014px) {
-  .place__title__berea {
+  .place__title-berea {
     padding-top: 150px;
     margin-bottom: 45px;
   }
