@@ -303,7 +303,7 @@
     margin-top: 380px;
   }
 }
-.place__city {
+.place-usa {
   width: 984px;
   height: 725px;
 }
@@ -358,12 +358,12 @@
   }
 }
 
-.place__city-burundi {
+.place-africa {
   width: 984px;
   height: 859px;
 }
 @media (min-width: 320px) and (max-width: 544px) {
-  .place__city-burundi {
+  .place-africa {
     padding-top: 460px;
   }
 }
