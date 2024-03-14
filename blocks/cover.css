@@ -140,15 +140,14 @@
   top: 7150px;
   left: 70px;
 }
-
-
-.cover__info-buttom {
+.cover__info-buttom:hover {
   cursor: pointer;
 }
+
 @media (min-width: 544px) and (max-width: 1014px) {
   .cover__info-buttom {
     top: 7450px;
-   margin-left: 240px;
+   margin-left: 20px;
 
   }
 }

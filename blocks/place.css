@@ -101,9 +101,10 @@
   border: none;
 }
 
-.place__buttom {
+.place__buttom:hover {
   cursor: pointer;
 }
+
 @media (min-width: 544px) and (max-width: 1014px) {
   .place__buttom {
     position: absolute;
@@ -224,7 +225,7 @@
     padding-left: 0px;
     width: 352px;
     height: 514px;
-    font-size: 0.9ssrem;
+    font-size: 0.9rem;
   }
 }
 
@@ -448,10 +449,6 @@
 .place__buttom-teques {
   position: absolute;
   top: 6489px;
-}
-
-.place__buttom-teques {
-  cursor: pointer;
 }
 
 @media (min-width: 544px) and (max-width: 1014px) {
