@@ -1,0 +1,29 @@
+.header {
+  background-color: #2a2c2f;
+  padding-left: 505px;
+  padding-top: 34px;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .header {
+    padding-left: 249px;
+    padding-top: 34px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .header {
+    padding-left: 70px;
+  }
+}
+
+.header__logo {
+  width: 270px;
+  height: 70px;
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .header__logo {
+    width: 200px;
+    height: 51.85px;
+  }
+}

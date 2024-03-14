@@ -1,0 +1,519 @@
+.place {
+  width: 984px;
+  height: 756px;
+  padding-top: 100px;
+  padding-left: 149px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place {
+    padding-left: 0px;
+    width: 720px;
+    height: 600px;
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place {
+    width: 320px;
+    height: 1169px;
+    padding-left: 0px;
+  }
+}
+
+.place__title {
+  width: 460px;
+  height: 152px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.8rem;
+  line-height: 76px;
+  color: #ffffff;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__title {
+    margin-left: 24px;
+    width: 300px;
+    height: 46px;
+    font-size: 2.1rem;
+    line-height: 40px;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__title {
+    width: 288px;
+    height: 35px;
+    padding-left: 16px;
+    font-size: 2rem;
+    line-height: 40px;
+    margin-top: 100px;
+  }
+}
+
+.place__image {
+  width: 460px;
+  height: 460px;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__image {
+    padding-left: 0px;
+    margin-left: 24px;
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
+    margin-top: 140px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__image-gales {
+    margin-top: 0px;
+  }
+}
+
+.place__buttom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: "inter";
+  color: #ffffff;
+  padding: 13px 20px;
+  gap: 10px;
+  width: 355px;
+  height: 48px;
+  background: #0278fe;
+  border-radius: 4px;
+  position: absolute;
+  top: 3070px;
+  justify-content: center;
+  border: none;
+}
+
+.place__buttom {
+  cursor: pointer;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__buttom {
+    position: absolute;
+    top: 3540px;
+    width: 340px;
+    left: 24px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__buttom {
+    position: absolute;
+    top: 4850px;
+    left: 16px;
+    width: 288px;
+    height: 48px;
+  }
+}
+
+.place__content {
+  width: 456px;
+  height: 45px;
+  margin-top: 90px;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__content {
+    padding-left: 20px;
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__content {
+    width: 288px;
+    height: 67px;
+    top: 3550.92px;
+    position: absolute;
+  }
+}
+
+.place__artist {
+  width: 58px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__artist {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__artist-burundi {
+    margin-top: 200px;
+    margin-top: 550px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__artist-gales {
+    margin-top: 200px;
+  }
+}
+
+.place__author {
+  width: 456px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__author {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__author {
+    font-size: 0.9rem;
+    width: 288px;
+    height: 67px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__author-gales {
+    position: absolute;
+    top: 245px;
+  }
+}
+
+.place__description {
+  width: 484px;
+  height: 203px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 163%;
+  color: #ffffff;
+}
+
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__description {
+    padding-left: 0px;
+    width: 352px;
+    height: 514px;
+    font-size: 0.9ssrem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__description {
+    width: 288px;
+    height: 650px;
+    margin-top: 320px;
+    margin-left: 20px;
+  }
+}
+
+.place__content-gales {
+  margin-top: 65px;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__content-gales {
+    padding-left: 20px;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__content-gales {
+    width: 288px;
+    height: 624px;
+    position: absolute;
+  }
+}
+
+.place__title-gales {
+  width: 484px;
+  height: 182px;
+}
+
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__title-gales {
+    width: 300px;
+    height: 46px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__title-gales {
+    margin-top: 200px;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__title__berea {
+    margin-top: 340px;
+  }
+}
+.place__buttom-gales {
+  position: absolute;
+  top: 3980px;
+}
+
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__buttom-gales {
+    position: absolute;
+    top: 4370px;
+    width: 340px;
+    left: 24px;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__buttom-gales {
+    position: absolute;
+    top: 6250px;
+    width: 288px;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__description-gales {
+    margin-top: 380px;
+  }
+}
+.place__city {
+  width: 984px;
+  height: 725px;
+}
+.place__content-berea {
+  margin-top: 90px;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__content-berea {
+    padding-left: 0px;
+    margin-top: 150px;
+    margin-right: 140px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__content-berea {
+    width: 288px;
+    height: 650px;
+    position: absolute;
+  }
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__title__berea {
+    padding-top: 150px;
+    margin-bottom: 45px;
+  }
+}
+
+.place__buttom-berea {
+  position: absolute;
+  top: 4800px;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__buttom-berea {
+    position: absolute;
+    top: 5170px;
+    width: 340px;
+    left: 24px;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__buttom-berea {
+    position: absolute;
+    top: 7650px;
+    width: 288px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__artist-berea {
+    margin-top: 350px;
+  }
+}
+
+.place__city-burundi {
+  width: 984px;
+  height: 859px;
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__city-burundi {
+    padding-top: 460px;
+  }
+}
+.place__content-burundi {
+  margin-top: 90px;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__content-burundi {
+    padding-left: 0px;
+    margin-top: 25px;
+    margin-right: 140px;
+    margin-top: 110px;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__content-burundi {
+    width: 288px;
+    height: 866px;
+    position: absolute;
+  }
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__title-burundi {
+    margin-top: 120px;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__title-burundi {
+    margin-top: 550px;
+  }
+}
+
+.place__description-burundi {
+  margin-top: 45px;
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__description-burundi {
+    margin-top: 350px;
+  }
+}
+
+.place__buttom-burundi {
+  position: absolute;
+  top: 5590px;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__buttom-burundi {
+    position: absolute;
+    top: 6000px;
+    width: 340px;
+    left: 24px;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__buttom-burundi {
+    top: 9300px;
+  }
+}
+.place__city-teques {
+  height: 90px;
+}
+
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__city-teques {
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__city-teques {
+    margin-top: 1260px;
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__image-teques {
+    margin-top: 50px;
+  }
+}
+.place__buttom-teques {
+  position: absolute;
+  top: 6489px;
+}
+
+.place__buttom-teques {
+  cursor: pointer;
+}
+
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__buttom-teques {
+    position: absolute;
+    top: 6850px;
+    width: 340px;
+    left: 24px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__buttom-teques {
+    position: absolute;
+    top: 10500px;
+    width: 288px;
+    height: 48px;
+  }
+}
+
+@media (min-width: 544px) and (max-width: 1014px) {
+  .place__content-teques {
+    padding-left: 0px;
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+}
+
+.place__description-teques {
+  margin-top: 50px;
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__description-teques {
+    position: absolute;
+    left: 0px;
+    top: 9840px;
+  }
+}
+
+.place__artist-teques {
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__artist-teques {
+    position: absolute;
+    left: 20px;
+    margin-left: 0px;
+    top: 9400px;
+  }
+}
+
+.place__author-teques {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__author-teques {
+    position: absolute;
+    left: 20px;
+    margin-left: 0px;
+    top: 9480px;
+  }
+}

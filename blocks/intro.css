@@ -1,0 +1,140 @@
+.intro {
+  background-color: #2a2c2f;
+}
+
+.intro__title {
+  width: 1017px;
+  height: 116px;
+  margin-top: 50px;
+  margin-bottom: 24px;
+  padding-left: 132px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.4rem;
+  line-height: 58px;
+  color: #ffffff;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .intro__title {
+    padding-left: 0px;
+    width: 720px;
+    height: 232px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .intro__title {
+    width: 285px;
+    height: 175px;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-left: 20px;
+  }
+}
+
+.intro__text {
+  width: 722px;
+  height: 136px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 34px;
+  color: #ffffff;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .intro__text {
+    padding-left: 20px;
+    width: 720px;
+    height: 232px;
+  }
+}
+
+.intro__quote {
+  margin-bottom: 156px;
+  margin-top: 0px;
+  width: 722px;
+  height: 136px;
+  padding-left: 132px;
+}
+
+@media (min-width: 544px) and (max-width: 1014px) {
+  .intro__quote {
+    padding-left: 0px;
+    width: 720px;
+    height: 232px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .intro__quote {
+    width: 288px;
+    height: 300px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-left: 20px;
+  }
+}
+
+.intro__main-text {
+  width: 720px;
+  height: 182px;
+  padding-left: 132px;
+  padding-top: 190px;
+  padding-bottom: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #ffffff;
+}
+@media (min-width: 544px) and (max-width: 1014px) {
+  .intro__main-text {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    width: 720px;
+    height: 232px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .intro__main-text {
+    width: 288px;
+    height: 442px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-left: 20px;
+    padding-top: 300px;
+    margin-top: 50px;
+    padding-bottom: 0px;
+  }
+}
+
+.intro__author {
+  color: #ffffff;
+  position: absolute;
+  top: 1400px;
+  left: 600px;
+}
+
+@media (min-width: 544px) and (max-width: 1014px) {
+  .intro__author {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 1460px;
+    left: 580px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .intro__author {
+    width: 288px;
+    height: 34px;
+    position: absolute;
+    top: 1015px;
+    font-size: 1.5rem;
+    left: 100px;
+  }
+}
