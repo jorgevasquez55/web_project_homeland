@@ -121,15 +121,15 @@
 
   }
 }
-.cover__info-buttom {
+.cover__info-button {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 13px 20px;
   background: #0278fe;
   border-radius: 4px;
-  width: 158px;
-  height: 22px;
+  width: 198px;
+  height: 48px;
   font-family: "Inter";
   font-weight: 600;
   font-size: 1rem;
@@ -139,13 +139,15 @@
   position: absolute;
   top: 7150px;
   left: 70px;
+  border-style: none;
+
 }
-.cover__info-buttom:hover {
+.cover__info-button:hover {
   cursor: pointer;
 }
 
 @media (min-width: 544px) and (max-width: 1014px) {
-  .cover__info-buttom {
+  .cover__info-button {
     top: 7450px;
    margin-left: 240px;
 
@@ -153,7 +155,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 544px) {
-  .cover__info-buttom {
+  .cover__info-button {
     width: 198px;
     height: 48px;
     margin-left: 0px;
