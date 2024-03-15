@@ -5,14 +5,14 @@
 }
 @media (min-width: 544px) and (max-width: 1014px) {
   .header {
-    padding-left: 249px;
+    padding-left: 245px;
     padding-top: 34px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 544px) {
   .header {
-    padding-left: 70px;
+    padding-left: 60px;
   }
 }
 

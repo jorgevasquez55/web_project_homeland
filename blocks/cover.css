@@ -3,6 +3,10 @@
   width: 1184px;
   height: 740px;
   margin-left: 48px;
+
+}
+.cover:hover{    /*corregido*/
+  opacity: 0.6;
 }
 @media (min-width: 544px) and (max-width: 1014px) {
   .cover {
@@ -23,9 +27,7 @@
   margin-top: 100px;
 }
 
-.cover__image:hover {
-  opacity: 0.6;
-}
+
 @media (min-width: 544px) and (max-width: 1014px) {
   .cover__image {
     width: 768px;
@@ -135,7 +137,7 @@
   font-size: 1rem;
   line-height: 22px;
   color: #ffffff;
-  margin-left: 492px;
+  margin-left: 480px;
   position: absolute;
   top: 7150px;
   left: 70px;
@@ -144,6 +146,7 @@
 }
 .cover__info-button:hover {
   cursor: pointer;
+
 }
 
 @media (min-width: 544px) and (max-width: 1014px) {
@@ -171,3 +174,4 @@
     left: 60px;
   }
 }
+

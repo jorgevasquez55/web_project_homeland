@@ -21,8 +21,11 @@
 
 @media (min-width: 544px) and (max-width: 1014px) {
   .lead__title {
+    width: 720px;
+    height: 200px;
     padding-left: 0px;
     padding-top: 34px;
+    margin-left: 20px;
   }
 }
 @media (min-width: 320px) and (max-width: 544px) {
@@ -31,7 +34,7 @@
     width: 288px;
     height: 88px;
     line-height: 3rem;
-    padding-left: 25px;
+    padding-left: 16px;
   }
 }
 
@@ -69,20 +72,20 @@
 .lead__image {
   width: 984px;
   height: 615px;
-  padding-left: 148px;
+  margin-left: 148px;
 }
 
 @media (min-width: 544px) and (max-width: 1014px) {
   .lead__image {
     width: 768px;
     height: 480px;
-    padding-left: 0px;
+    margin-left: 0px;
   }
 }
 @media (min-width: 320px) and (max-width: 544px) {
   .lead__image {
     width: 320px;
     height: 200px;
-    padding-left: 0px;
+    margin-left: 0px;
   }
 }
