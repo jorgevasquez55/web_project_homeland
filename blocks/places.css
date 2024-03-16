@@ -4,3 +4,9 @@
   font-family: "Inter";
   font-weight: 900;
 }
+
+@media (min-width: 1014px) and (max-width: 1540px) {
+  .places {
+    padding-left: 150px;
+    }
+    }

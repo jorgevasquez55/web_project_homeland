@@ -2,6 +2,11 @@
   background-color: #2a2c2f;
 }
 
+@media (min-width: 1014px) and (max-width: 1540px) {
+  .intro{
+    padding-left: 150px;
+  }
+  }
 .intro__title {
   width: 1017px;
   height: 116px;

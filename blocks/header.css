@@ -3,6 +3,7 @@
   padding-left: 505px;
   padding-top: 34px;
 }
+
 @media (min-width: 544px) and (max-width: 1014px) {
   .header {
     padding-left: 245px;
@@ -25,5 +26,12 @@
   .header__logo {
     width: 200px;
     height: 51.85px;
+  }
+}
+
+
+@media (min-width: 1014px) and (max-width: 1540px) {
+  .header__logo {
+    padding-left: 130px;
   }
 }

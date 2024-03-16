@@ -5,6 +5,11 @@
   margin-left: 48px;
 
 }
+@media (min-width: 1014px) and (max-width: 1540px) {
+  .cover {
+    padding-left: 130px;
+    }
+    }
 .cover:hover{    /*corregido*/
   opacity: 0.6;
 }
@@ -148,6 +153,12 @@
   cursor: pointer;
 
 }
+
+@media (min-width: 1014px) and (max-width: 1540px) {
+  .cover__info-button {
+    margin-left: 610px;
+    }
+    }
 
 @media (min-width: 544px) and (max-width: 1014px) {
   .cover__info-button {
