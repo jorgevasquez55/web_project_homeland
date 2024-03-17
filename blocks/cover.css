@@ -131,7 +131,6 @@
 .cover__info-button {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   padding: 5px 5px;
   background: #0278fe;
   border-radius: 4px;

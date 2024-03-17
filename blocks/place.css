@@ -91,7 +91,6 @@
 .place__buttom {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   font-family: "inter";
   color: #ffffff;
   padding: 5px 15px;
