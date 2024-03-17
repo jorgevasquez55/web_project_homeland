@@ -123,7 +123,11 @@
   top: 1400px;
   left: 600px;
 }
-
+@media (min-width: 1014px) and (max-width: 1540px) {
+  .intro__author{
+    margin-left: 90px;
+    }
+    }
 @media (min-width: 544px) and (max-width: 1014px) {
   .intro__author {
     font-size: 1.2rem;

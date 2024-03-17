@@ -52,7 +52,12 @@
     padding-left: 16px;
     font-size: 2rem;
     line-height: 40px;
-    margin-top: 340px;
+    margin-top: 0px;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .place__title-berea {
+    margin-top: 330px;
   }
 }
 
@@ -144,6 +149,7 @@
     width: 288px;
     height: 67px;
     top: 3550.92px;
+    margin-top: 0px;
     position: absolute;
   }
 }
